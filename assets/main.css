@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0px; padding:0px; background-color:#FFFFFF;}
+
+.copyright {
+	font-family:Arial, Helvetica, sans-serif,;
+	font-size: 10px;
+	color: #999999;
+ }
+ 
+#logo {
+	width: 1024px;
+	height: 129px;
+	background-image: url(/images/Temp_huazhu_01.jpg);
+}
+
+#bg{
+	width: 622px;
+	height: 451px;
+}
+
+#bg_1{
+	width: 622px;
+	height: 451px;
+	background-image: url(/images/about_bg.jpg);
+	padding:0px;
+}
+
+#bg_2{
+	width: 622px;
+	height: 451px;
+	background-image: url(/images/service_bg.jpg);
+}
+
+#bg_3{
+	width: 622px;
+	height: 451px;
+	background-image: url(/images/join_bg.jpg);
+}
+
+#bg_4{
+	width: 622px;
+	height: 451px;
+	background-image: url(/images/contact_bg.jpg);
+}
+
+#bg_5{
+	width: 622px;
+	height: 451px;
+	background-image: url(/images/work_bg.jpg);
+}
+
+#bg_6{
+	width: 622px;
+	height: 900px;
+	background-image: url(/images/00_bg.jpg);
+}
+
+#item {
+	width: 222px;
+	height: 451px;
+}
+
+#text_box{
+	width: 550px;
+	margin-left: 50px;
+	margin-right: 20px;
+	height: 400px;
+}
+
+#work{
+	width: 440px;
+	height: 451px;
+	background-image: url(/images/work_bg.jpg);
+}
+
+#work_item{
+	width: 181px;
+	height: 481px;
+	background-image: url(/images/work_bg_.jpg);
+}
+
+#work_item img {
+	cursor: pointer;
+}
+
+
+.h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666633;
+	font-weight: bolder;
+}
+
+.h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF6600;
+	font-weight: bold;
+	padding-left: 6px;
+}
+
+.h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF6600;
+	font-weight: bold;
+	padding-left: 200px;
+}
+
+
+.P {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: 17px;
+}
+
+.p2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 6px;
+}
+
+.p3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 200px;
+}
+
+
+.work_item_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	line-height: 17px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+/*client*/
+
+#client{
+	width: 220px;
+	margin-top:100px;
+}
+
+#client h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF6600;
+	font-weight: bold;
+	padding-left: 6px;
+	}
+
+#client p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 6px;
+	line-height: 10px;
+}
+
+#client_1 {
+	float: right;
+	width: 220px;
+	margin-top:100px;
+}
+
+/*进度条颜色*/
+#nprogress .bar {
+	height: 4px !important; /* 设置进度条的高度 */
+	background-color: rgba(13, 60, 248, 0.48) !important; /* 自定义颜色 */
+}
