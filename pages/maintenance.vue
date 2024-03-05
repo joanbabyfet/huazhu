@@ -2,7 +2,7 @@
     <div class="content">
         <div class="maintenance">
             <h1>Maintenance Mode</h1>
-            <h1>Nuxt.js @code4mk</h1>
+            <h1>admin@admin</h1>
         </div>
     </div>
 </template>

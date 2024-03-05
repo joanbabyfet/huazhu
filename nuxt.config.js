@@ -3,12 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true, //开启服务器端渲染(预渲染)
   devServer: {
-    host: '127.0.0.1', //默认为localhost
+    host: 'localhost', //默认为localhost
     port: 3001
   },
   runtimeConfig: {
     public: { // public 下的变量可以在客户端和服务端使用
-      baseURL: process.env.BASE_URL, //全局api域名
+      BASE_URL: '', //全局api域名
     },
   },
   app: {
@@ -34,4 +34,5 @@ export default defineNuxtConfig({
   css: [
     '@/assets/main.css',
   ],
+  modules: [],
 })
