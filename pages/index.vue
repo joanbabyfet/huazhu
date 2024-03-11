@@ -15,7 +15,6 @@
 </template>
 
 <script setup>
+//打印当前环境
+console.log(process.env.NUXT_PUBLIC_MODE_ENV)
 </script>
-
-<style scoped>
-</style>
