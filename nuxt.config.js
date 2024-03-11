@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   ],
   //全局引入css文件
   css: [
-    '@/assets/main.css',
+    '@/assets/css/main.css',
   ],
   modules: [],
 })
