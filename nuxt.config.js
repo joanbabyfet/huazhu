@@ -8,8 +8,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: { // public 下的变量可以在客户端和服务端使用
-      BASE_URL: '', //全局api域名
-      MAINTENANCE_MODE: false //是否维护中
+      BASE_URL: '', //全局api域名, 被env文件里环境变量覆写
+      MAINTENANCE_MODE: false, //是否维护中
+      NUXT_ENV: process.env.NUXT_PUBLIC_ENV,
     },
   },
   app: {
